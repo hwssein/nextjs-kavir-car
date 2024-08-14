@@ -1,12 +1,3 @@
-.categories_container {
-  width: 100%;
-  padding: 0 8px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .category_link {
   width: 100px;
   margin: 16px;

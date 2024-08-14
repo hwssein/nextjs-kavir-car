@@ -1,3 +1,21 @@
+.search_container {
+  width: 100%;
+  margin: 16px auto 32px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.categories_container {
+  width: 100%;
+  padding: 0 8px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
 .car_card_container {
   width: 100%;
   margin-top: 24px;

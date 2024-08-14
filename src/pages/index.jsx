@@ -6,12 +6,17 @@ import carsData from "@/constant/carsData";
 
 import styles from "../styles/index.module.css";
 import Categories from "@/components/module/Categories";
+import Search from "@/components/module/Search";
 
 function Index() {
   const [cars, setCars] = useState(carsData);
 
   return (
     <>
+      <div className={styles.search_container}>
+        <Search />
+      </div>
+
       <div className={styles.categories_container}>
         <Categories />
       </div>
