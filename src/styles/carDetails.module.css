@@ -1,0 +1,63 @@
+.details_container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image_container {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 4px;
+}
+.details_image {
+  border-radius: 4px;
+}
+.details_content {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 16px;
+}
+
+.details_name,
+.details_year,
+.details_distance,
+.details_price {
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  background-color: var(--card-bg-color);
+  padding: 16px 8px;
+  border-radius: 4px;
+}
+.details_name strong {
+  color: var(--highlight);
+}
+
+.description_title {
+  width: 100%;
+  margin-bottom: 8px;
+  background-color: var(--card-bg-color);
+  text-align: right;
+  padding: 16px 8px;
+  border-radius: 4px;
+}
+.description_content {
+  width: 100%;
+  margin-bottom: 24px;
+  background-color: var(--card-bg-color);
+  text-align: left;
+  padding: 16px 8px;
+  border-radius: 4px;
+}
+
+.details_price {
+  border-bottom: 3px solid var(--highlight);
+}
